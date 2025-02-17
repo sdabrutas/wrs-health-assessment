@@ -9,6 +9,5 @@ export const useGetPosts = () => {
       return await response.json();
     },
     placeholderData: keepPreviousData,
-    staleTime: 5000,
   });
 };

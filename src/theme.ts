@@ -3,14 +3,22 @@ import { createTheme } from "@mui/material/styles";
 
 const theme = createTheme({
   colorSchemes: {
-    dark: true,
+    light: {
+      palette: {
+        primary: {
+          main: lightGreen[500],
+        }
+      },
+    },
+    dark: {
+      palette: {
+        primary: {
+          main: '#002984',
+        },
+      }
+    },
   },
   cssVariables: true,
-  palette: {
-    primary: {
-      main: lightGreen[500],
-    }
-  },
 });
 
 export default theme;
