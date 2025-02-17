@@ -7,7 +7,7 @@ interface Props extends SnackbarProps {
 }
 
 const Snackbar: React.FC<Props> = ({ variant, open, onClose, message, ...rest }) => {
-  const handleClose = (_, reason?: SnackbarCloseReason) => {
+  const handleClose = (_: any, reason?: SnackbarCloseReason) => {
     if (reason === 'clickaway') {
       return;
     }

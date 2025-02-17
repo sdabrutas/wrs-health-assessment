@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { Box, Button, Container, IconButton, Skeleton, Typography } from "@mui/material";
 import { useGetPosts } from "../data/posts";
 import PostsTable from "../components/home/PostsTable";
-import { Dropdown, Header } from "../components/common";
+import { Dropdown } from "../components/common";
 import SearchField from "../components/home/SearchField";
 import { Close } from "@mui/icons-material";
 import Snackbar from "../components/common/Snackbar/Snackbar";

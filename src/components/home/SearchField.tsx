@@ -1,5 +1,5 @@
 import { useDeferredValue, useEffect, useState } from "react";
-import { Box, FormControl, InputAdornment } from "@mui/material";
+import { FormControl, InputAdornment } from "@mui/material";
 
 import { TextInput } from "../common";
 import { Search } from "@mui/icons-material";
